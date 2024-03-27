@@ -52,7 +52,7 @@ if (isset($post_data)) {
 <section class="position-relative h-100">
     <img class="w-100 h-100 object-fit-cover" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/about/Hero-about.png" alt="hero-background" />
     <div class="container">
-        <h1 class="hero-caption main-title small-caps text-white">About Kabar Media's</h1>
+        <h1 class="hero-caption main-title small-caps text-white">About Kabar Media</h1>
     </div>
 </section>
 
