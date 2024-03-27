@@ -53,7 +53,7 @@ if (isset($post_data)) {
     <img class="w-100 h-100 object-fit-cover"
         src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/about/Hero-about.png" alt="hero-background" />
     <div class="container">
-        <h1 class="hero-caption main-title small-caps text-white">About Kabar MediaSS</h1>
+        <h1 class="hero-caption main-title small-caps text-white">About Kabar Media</h1>
     </div>
 </section>
 
