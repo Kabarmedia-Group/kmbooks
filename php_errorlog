@@ -1,0 +1,22 @@
+[27-Jun-2023 10:37:14 UTC] PHP Warning:  include(controllers/aboutController.php): failed to open stream: No such file or directory in /home/customer/www/books.kabarmedia.com/public_html/wp-content/themes/kabarmedia/index.php on line 73
+[27-Jun-2023 10:37:14 UTC] PHP Warning:  include(): Failed opening 'controllers/aboutController.php' for inclusion (include_path='.:/usr/local/php74/pear') in /home/customer/www/books.kabarmedia.com/public_html/wp-content/themes/kabarmedia/index.php on line 73
+[28-Jun-2023 06:34:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getBooks() in /home/customer/www/books.kabarmedia.com/public_html/wp-content/themes/kabarmedia/views/buku-kuku-ku.php:21
+Stack trace:
+#0 /home/customer/www/books.kabarmedia.com/public_html/wp-content/themes/kabarmedia/index.php(56): include()
+#1 /home/customer/www/books.kabarmedia.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#2 /home/customer/www/books.kabarmedia.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#3 /home/customer/www/books.kabarmedia.com/public_html/index.php(17): require('/home/customer/...')
+#4 {main}
+  thrown in /home/customer/www/books.kabarmedia.com/public_html/wp-content/themes/kabarmedia/views/buku-kuku-ku.php on line 21
+[17-Jul-2023 07:39:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getBooks() in /home/customer/www/books.kabarmedia.com/public_html/wp-content/themes/kabarmedia/views/penjor-of-bali.php:21
+Stack trace:
+#0 /home/customer/www/books.kabarmedia.com/public_html/wp-content/themes/kabarmedia/index.php(83): include()
+#1 /home/customer/www/books.kabarmedia.com/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#2 /home/customer/www/books.kabarmedia.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#3 /home/customer/www/books.kabarmedia.com/public_html/index.php(17): require('/home/customer/...')
+#4 {main}
+  thrown in /home/customer/www/books.kabarmedia.com/public_html/wp-content/themes/kabarmedia/views/penjor-of-bali.php on line 21
+[10-Aug-2023 06:04:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/books.kabarmedia.com/public_html/wp-content/themes/kabarmedia/views/the-banda-islands.php on line 298
+[12-Oct-2023 05:57:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/books.kabarmedia.com/public_html/wp-content/themes/kabarmedia/views/mountains-more-ancient.php on line 338
+[12-Oct-2023 05:58:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/books.kabarmedia.com/public_html/wp-content/themes/kabarmedia/views/mountains-more-ancient.php on line 338
+[08-Nov-2023 10:38:33 UTC] Cron unschedule event error for hook: wp_https_detection, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
