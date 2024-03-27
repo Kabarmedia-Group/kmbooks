@@ -65,6 +65,7 @@ a:hover {
 .z-10 {
   z-index: 10;
 }
+
 /* === End of Utilities === */
 
 /* === Common Style === */
@@ -94,11 +95,11 @@ a:hover {
   color: var(--cinnabar);
 }
 
-.sub-sub-title{
+.sub-sub-title {
   font-size: 30px;
 }
 
-.subcaption{
+.subcaption {
   color: #383E59;
   font-size: 18px;
 }
@@ -137,13 +138,13 @@ a:hover {
   opacity: 55%;
 }
 
-.btn.second-button-shop{
+.btn.second-button-shop {
   background-color: var(--cinnabar);
   color: var(--cultured);
   border: 1px solid var(--cinnabar);
-    font-weight: 600;
-      padding: 12px 28px;
-      border-radius: 0;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 0;
 }
 
 .btn.second-button-shop:hover {
@@ -214,7 +215,7 @@ a:hover {
   border: none;
 }
 
-.card-title-services{
+.card-title-services {
   font-size: 24px;
 }
 
@@ -295,6 +296,7 @@ a:hover {
   left: 0;
   opacity: 1;
 }
+
 /* === End of Navbar Style === */
 
 /* === Global Style === */
@@ -307,29 +309,27 @@ a:hover {
   min-height: 100vh;
   /* background-image: url('assets/images/about/header-hero.png'); */
   background: rgb(157, 134, 88);
-  background: linear-gradient(
-    159deg,
-    rgba(174, 154, 106, 0.177) 0%,
-    rgba(203, 166, 133, 0.639) 35%,
-    rgba(243, 243, 243, 1) 100%
-  );
- 
-  
+  background: linear-gradient(159deg,
+      rgba(174, 154, 106, 0.177) 0%,
+      rgba(203, 166, 133, 0.639) 35%,
+      rgba(243, 243, 243, 1) 100%);
+
+
 }
 
 .hero-image {
   width: 100%;
 }
 
-.hero-caption{
+.hero-caption {
   position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    font-size: 24px;
-    padding: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  padding: 20px;
 }
 
 .author-content {
@@ -439,6 +439,7 @@ a:hover {
   color: var(--verdigris);
   cursor: pointer;
 }
+
 /* 080320224 */
 .knowledge-image::before {
   content: "";
@@ -473,12 +474,13 @@ a:hover {
     padding: 120px 0;
   }
 
-    .events-mobile {
-      display: none;
-    }
+  .events-mobile {
+    display: none;
+  }
 }
 
 @media (min-width: 102px) {
+
   .packages,
   .newBook,
   .quotes,
@@ -534,19 +536,20 @@ a:hover {
     right: 0;
     bottom: 0;
   }
-  
+
   .knowledge-image img {
     transform: translate(-24px, -24px);
   }
+
   .swiper-card {
     height: 335px;
   }
-      
+
   #Mobile-carousel {
     display: none;
   }
 
-  .events-mobile{
+  .events-mobile {
     display: none;
   }
 }
@@ -555,10 +558,12 @@ a:hover {
   .swiper-card {
     height: 360px;
   }
+
   .events {
     display: none;
   }
-  .hero-caption{
+
+  .hero-caption {
     font-size: 29px;
   }
 }
