@@ -27,6 +27,17 @@ $getBooks = getBooks()['books'];
 .carousel-item {
     width: 100%;
 }
+.btn.main-button{
+    padding: 12px 50px;
+}
+.row{
+}
+.carousel-caption{
+    left: 10%;
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
     @media (min-width: 768px) and (max-width: 992px){
         .buku, .buku-banda{
              padding-top:27%;
@@ -51,7 +62,6 @@ $getBooks = getBooks()['books'];
         .buku-banda{
          padding-top:21%   
         }
-		
     }
 </style>
 
@@ -179,9 +189,9 @@ $getBooks = getBooks()['books'];
                                 Ubud Writers & Readers Festival 2024
                             </h2>
                             <p class="description fw-normal mb-5 pe-md-5 text-white">
-                                From literary lunch to remember to intimate cocktail feasts
-                                with Festival headliners &#8211; there
-                                is plenty to devour in Ubud&apos;s in-places at one of our Special Events.
+                                From literary lunch to remember to intimate<br>
+                                cocktail feasts with Festival headliners &#8211; there is <br>
+                                plenty to devour in Ubud&apos;s in-places at one of our <br> Special Events.
                             </p>
                             <a href="https://www.ubudwritersfestival.com/" type="button" class="btn main-button">
                                 Learn More
@@ -210,7 +220,7 @@ $getBooks = getBooks()['books'];
             <div class="carousel-item active">
                 <div class="row align-items-center">
                     <div class="col-md-6 px-4 order-2 md-order-1">
-                        <p class="sub-title text-uppercase fw-bold mb-2">Events</p>
+                        <p class="sub-title text-uppercase fw-bold mb-2 mt-4">Events</p>
                         <h2 class="main-title mb-lg-4">
                             Indie Book Day 2024
                         </h2>
@@ -236,7 +246,7 @@ $getBooks = getBooks()['books'];
             <div class="carousel-item">
                 <div class="row align-items-center">
                     <div class="col-md-6 px-4 order-2 md-order-1">
-                        <p class="sub-title text-uppercase fw-bold mb-2">Events</p>
+                        <p class="sub-title text-uppercase fw-bold mb-2 mt-4">Events</p>
                         <h2 class="main-title mb-lg-4">
                             Meet the Author at Periplus Artasedana Sanur
                         </h2>
@@ -259,7 +269,7 @@ $getBooks = getBooks()['books'];
             <div class="carousel-item">
                 <div class="row align-items-center">
                     <div class="col-md-6 px-4 order-2 md-order-1">
-                        <p class="sub-title text-uppercase fw-bold mb-2">Events</p>
+                        <p class="sub-title text-uppercase fw-bold mb-2 mt-4">Events</p>
                         <h2 class="main-title mb-lg-4">
                             Ubud Writers & Readers Festival
                         </h2>
@@ -275,7 +285,7 @@ $getBooks = getBooks()['books'];
                         <picture>
                             <source media="(min-width:900px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/event-background-desktop.png">
                             <source media="(min-width:768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/event-background-tablet.png">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/event-ubud.png" alt="all-book" class="w-100">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/event-ubud-mobile.png" alt="all-book" class="w-100">
                         </picture>
                     </div>
                 </div>
