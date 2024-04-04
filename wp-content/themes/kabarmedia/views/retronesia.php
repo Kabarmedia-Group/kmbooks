@@ -241,7 +241,7 @@ $getBooks = getBooks()['books'];
                     </div>
                     <div class="col-lg-4 pt-4">
                         <div class="d-md-flex gap-md-4 mt-4">
-                            <a href="https://www.tokopedia.com/kabarmedia/retronesia-the-years-of-building-dangerously?extParam=whid%3D2720499" target="_blank" class="btn second-button-shop mt-auto preorder-button">Order Now
+                            <a href="https://www.tokopedia.com/kabarmedia/retronesia-the-years-of-building-dangerously?extParam=whid%3D2720499" target="_blank" class="btn second-button-order mt-auto preorder-button">Order Now
                             </a>
                         </div>
                     </div>
@@ -253,8 +253,8 @@ $getBooks = getBooks()['books'];
             <div class="container px-4 px-md-0">
                 <div class="row align-items-center gap-xl-4">
                     <div class="col-md-6 order-2 order-lg-1 order-md-1 author-content">
-                        <p class="sub-title text-uppercase fw-bold mb-2">The Author</p>
-                        <h2 class="second-title small-caps mb-lg-4">
+                        <p class="second-title small-caps fw-bold mb-2">The Author</p><br>
+                        <h2 class="sub-main-title mb-lg-4">
                             Tariq Khalil
                         </h2>
                         <p class="description">
@@ -287,8 +287,8 @@ $getBooks = getBooks()['books'];
             <div class="container px-4 px-md-0 position-relative">
                 <div class="row mb-3">
                     <div class="col-lg-6 text-center text-lg-start">
-                        <p class="sub-title text-uppercase fw-bold mb-2">Reviews</p>
-                        <h2 class="second-title small-caps">
+                        <p class="second-title small-caps fw-bold mb-2">Reviews</p>
+                        <h2 class="third-title ">
                             What They Say
                         </h2>
                         <p class="description">Reactions to the book.</p>
@@ -385,9 +385,9 @@ $getBooks = getBooks()['books'];
             </div>
         </section>
 
-        <section class="packages py-5" id="books">
+        <section class="other-books py-5" id="books">
             <div class="container px-4 px-md-0 pb-md-5">
-                <div class="text-center mb-5">
+                <div class="text mb-5">
                     <h2 class="second-title small-caps">
                         Other Books
                     </h2>

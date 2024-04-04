@@ -125,7 +125,7 @@ $getBooks = getBooks()['books'];
 
 <section class="other-books py-5" id="books">
     <div class="container px-4 px-md-0 pb-md-5">
-        <div class="text-center mb-5">
+        <div class="text mb-5">
             <h2 class="second-title small-caps">
                 Other Books
             </h2>

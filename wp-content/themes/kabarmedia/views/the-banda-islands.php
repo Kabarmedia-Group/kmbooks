@@ -104,7 +104,7 @@ $getBooks = getBooks()['books'];
                         </div>
                     </div>
                     <div class="col-md-4 hero-content">
-                        <p class="sub-title text-uppercase fw-bold mb-2">EDITED BY JAN RUSSELL</p>
+                        <p class="sub-title fw-bold mb-2">Edited By Jan Russell</p>
                         <h1 class="main-title small-caps mb-lg-4">
                         The Banda<br> Islands
                         </h1>
@@ -210,7 +210,7 @@ $getBooks = getBooks()['books'];
                     </div>
                     <div class="col-lg-4 pt-4">
                         <div class="d-md-flex gap-md-4 mt-4">
-                             <a href="https://www.tokopedia.com/kabarmedia/the-banda-islands-hidden-histories-miracles-of-nature?extParam=whid%3D2720499" target="_blank" class="btn second-button-shop mt-auto preorder-button">Order Now</a>
+                             <a href="https://www.tokopedia.com/kabarmedia/the-banda-islands-hidden-histories-miracles-of-nature?extParam=whid%3D2720499" target="_blank" class="btn second-button-order mt-auto preorder-button">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -222,8 +222,8 @@ $getBooks = getBooks()['books'];
             <div class="container px-4 px-md-0 position-relative">
                 <div class="row mb-3">
                     <div class="col-lg-6 text-center text-lg-start">
-                        <p class="sub-title text-uppercase fw-bold mb-2">Reviews</p>
-                        <h2 class="second-title small-caps">
+                        <h2 class=" second-title small-caps">Reviews</h2>
+                        <h2 class="third-title ">
                             What They Say
                         </h2>
                         <p class="description">Reactions to the book.</p>
@@ -302,11 +302,11 @@ $getBooks = getBooks()['books'];
         </section>
 
 
-<section class="packages py-5" id="books">
+<section class="other-books py-5" id="books">
         <div class="container px-4 px-md-0 pb-md-5">
-            <div class="text-center mb-5">
+            <div class="text mb-5">
                 <h2 class="second-title small-caps">
-                  Other Books
+                  Our Books
                 </h2>
             </div>
             <div class="row">

@@ -21,9 +21,9 @@ Jln. Kemang Raya No. 3, Bangka, Jakarta Selatan</p>
                     <h5 class="fw-bold mb-3">Quick Links</h5>
                     <div class="footer-link d-lg-flex">
                         <div class="d-flex flex-column me-lg-5">
-                            <a href="/" class="text-davys fw-normal mb-2">Home</a>
-                            <a href="/about" class="text-davys fw-normal mb-2">About</a>
-                            <a href="/works" class="text-davys fw-normal mb-2">Work</a>
+                            <a href="our-titles" class="text-davys fw-normal mb-2">Home</a>
+                            <a href="about" class="text-davys fw-normal mb-2">About</a>
+                            <a href="works" class="text-davys fw-normal mb-2">Work</a>
                         </div>
                         <div class="d-flex flex-column">
                             <a href="#contact" class="text-davys fw-normal mb-2">Contact</a>

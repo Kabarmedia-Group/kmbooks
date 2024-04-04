@@ -69,6 +69,15 @@ background-color: #e4d0c0;
   font-size: 75px;
   font-weight: 800;
   line-height: 42px;
+  color: #383E59;
+}
+
+.sub-main-title {
+  font-family: "mr-eaves-sans", sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 42px;
+  color: #8B292C;
 }
 
 .second-title {
@@ -76,6 +85,7 @@ background-color: #e4d0c0;
   font-size: 40px;
   font-weight: 800;
   line-height: 45px;
+  color: #383E59;
 }
 
 .third-title {
@@ -83,11 +93,12 @@ background-color: #e4d0c0;
   font-size: 36px;
   font-weight: 800;
   line-height: 45px;
+  color: #8B292C;
 }
 
 .sub-title {
   font-size: 18px;
-  color: #2c9893;
+  color: #8B292C;
 }
 
 .btn.main-button {
@@ -132,6 +143,26 @@ background-color: #e4d0c0;
   background-color: var(--cinnabar);
 }
 
+.btn.second-button-order{
+  background-color: var(--cinnabar);
+  color: var(--cultured);
+  border: 1px solid var(--cinnabar);
+    font-weight: 600;
+      padding: 12px 150px;
+      border-radius: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px 0 0 30px;
+}
+
+.btn.second-button-order:hover {
+  border: 1px solid var(--cultured);
+  color: var(--cultured);
+  background-color: var(--cinnabar);
+  opacity: 55%;
+}
+
 .btn.third-button {
   background-color: var(--cinnabar);
   color: var(--cultured);
@@ -155,13 +186,26 @@ background-color: #e4d0c0;
   padding-bottom: 12px;
 }
 
-.packages,
-.author,
-.trailer,
-.quotes,
+.packages {
+  background-color: #ececec;
+}
+.author {
+background-color: #fff;
+}
+.trailer {
+  background-color: #fff;
+  }
+.quotes {
+  background-color: #ececec;
+  }
 .events {
   scroll-margin-top: 2rem;
+  background-color: #fff;
 }
+.other-books {
+  background-color: #fff;
+}
+
 
 .swal-button {
   background-color: var(--verdigris) !important;
@@ -336,7 +380,7 @@ background-color: #e4d0c0;
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background-color: #9abab8;
+  background-color: #AEC7DB;
 }
 
 .footer-brand {
@@ -359,6 +403,8 @@ background-color: #e4d0c0;
   cursor: pointer;
 
 }
+
+
 
 @media (min-width: 102px) {
 
@@ -436,11 +482,11 @@ background-color: #e4d0c0;
   }
 
   .second-title {
-    font-size: 56px;
+    font-size: 40px;
   }
 
   .third-title {
-    font-size: 30px;
+    font-size: 32px;
   }
 
   .navbar {
@@ -460,7 +506,7 @@ background-color: #e4d0c0;
 
   .author,
   .quotes,
-  .other-books,
+  .other-books ,
   .events {
     scroll-margin-top: 5rem;
   }
