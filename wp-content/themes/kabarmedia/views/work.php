@@ -243,7 +243,7 @@ if (isset($post_data)) {
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card-books p-5">
+                <div class="card-books p-5 text-center">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/work/eria.png"  alt="eria">
                 </div>
             </div>
@@ -253,24 +253,24 @@ if (isset($post_data)) {
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card-books p-5">
+                <div class="card-books p-5 text-center">
                     <a href="/work/Backup-26022024/penjor-of-bali">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/work/icbc.png"  alt="icbc">
                     </a>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card-books p-5">
+                <div class="card-books p-5 text-center">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/work/ciputra.png"  alt="ciputra">
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card-books p-5">
+                <div class="card-books p-5 text-center">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/work/the-world-bank.png"  alt="the-world-bank">
                 </div>
             </div>
              <div class="col-md-3">
-                <div class="card-books p-5">
+                <div class="card-books p-5 text-center">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/work/rosewood.png"  alt="rosewood">
                 </div>
             </div>

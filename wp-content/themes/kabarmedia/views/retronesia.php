@@ -240,7 +240,7 @@ $getBooks = getBooks()['books'];
                         </p>
                     </div>
                     <div class="col-lg-4 pt-4">
-                        <div class="d-md-flex gap-md-4 mt-4">
+                        <div class="d-md-flex gap-md-4 mt-4 justify-content-md-center">
                             <a href="https://www.tokopedia.com/kabarmedia/retronesia-the-years-of-building-dangerously?extParam=whid%3D2720499" target="_blank" class="btn second-button-order mt-auto preorder-button">Order Now
                             </a>
                         </div>
@@ -257,7 +257,7 @@ $getBooks = getBooks()['books'];
                         <h2 class="sub-main-title mb-lg-4">
                             Tariq Khalil
                         </h2>
-                        <p class="description">
+                        <p class="description"><br>
                             Tariq is an enigma who has led a double life…Slim and handsome with dark Indian features,
                             his strong Scottish accent came out of nowhere and hit me like a truck.” Daniel Ziv.
                         </p>

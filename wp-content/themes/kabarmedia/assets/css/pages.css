@@ -74,7 +74,7 @@ background-color: #e4d0c0;
 
 .sub-main-title {
   font-family: "mr-eaves-sans", sans-serif;
-  font-size: 64px;
+  font-size: 52px;
   font-weight: 800;
   line-height: 42px;
   color: #8B292C;
@@ -153,7 +153,6 @@ background-color: #e4d0c0;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 30px 0 0 30px;
 }
 
 .btn.second-button-order:hover {
@@ -434,6 +433,7 @@ background-color: #fff;
     display: none;
   }
   
+  .btn.second-button-order
 }
 
 
@@ -449,6 +449,10 @@ background-color: #fff;
   }
   .hero-content{
     display: none;
+  }
+  .main-title {
+    line-height: 65px;
+
   }
 }
 

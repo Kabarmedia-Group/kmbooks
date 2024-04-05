@@ -106,7 +106,7 @@ $getBooks = getBooks()['books'];
                     <div class="col-md-4 hero-content">
                         <p class="sub-title fw-bold mb-2">Edited By Jan Russell</p>
                         <h1 class="main-title small-caps mb-lg-4">
-                        The Banda<br> Islands
+                        The Banda<br>  Islands
                         </h1>
                         <p class="description">
                         Anthology of Literature, Art, and Travel
@@ -209,7 +209,7 @@ $getBooks = getBooks()['books'];
     
                     </div>
                     <div class="col-lg-4 pt-4">
-                        <div class="d-md-flex gap-md-4 mt-4">
+                        <div class="d-md-flex gap-md-4 mt-4 justify-content-md-center">
                              <a href="https://www.tokopedia.com/kabarmedia/the-banda-islands-hidden-histories-miracles-of-nature?extParam=whid%3D2720499" target="_blank" class="btn second-button-order mt-auto preorder-button">Order Now</a>
                         </div>
                     </div>

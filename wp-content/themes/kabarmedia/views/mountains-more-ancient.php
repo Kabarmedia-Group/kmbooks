@@ -194,7 +194,7 @@ $getBooks = getBooks()['books'];
                 </p>
             </div>
             <div class="col-lg-5 pt-6">
-                <div class="d-md-flex gap-md-4 mt-4 justify-content-end"> <!-- Menambahkan kelas justify-content-end untuk tombol -->
+                <div class="d-md-flex gap-md-4 mt-4 justify-content-md-center"> <!-- Menambahkan kelas justify-content-end untuk tombol -->
                     <a href="https://www.tokopedia.com/kabarmedia/mountains-more-ancient-by-isna-marifa?extParam=whid%3D2720499" target="_blank" class="btn second-button-order mt-auto preorder-button">Order Now</a>
                 </div>
             </div>
