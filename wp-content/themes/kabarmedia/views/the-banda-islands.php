@@ -319,7 +319,7 @@ $getBooks = getBooks()['books'];
                                                         <img src="'.get_the_post_thumbnail_url($value->ID).'"
                                         alt="brandon" class="img-fluid w-100 rounded-bottom" />
                                         <div class="mt-2">
-                                            <h5 class="fw-semibold mb-0">'.$value->post_title.'</h5>
+                                            <h5 class="second-title fw-semibold mb-0">'.$value->post_title.'</h5>
                                             <h6 class="text-black-50 fw-medium">'.$value->post_content.'</h>
                                         </div>
                                     </div>

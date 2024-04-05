@@ -253,7 +253,7 @@ $getBooks = getBooks()['books'];
             <div class="container px-4 px-md-0">
                 <div class="row align-items-center gap-xl-4">
                     <div class="col-md-6 order-2 order-lg-1 order-md-1 author-content">
-                        <p class="second-title small-caps fw-bold mb-2">The Author</p><br>
+                        <p class="second-title small-caps fw-bold mb-2">The Author</p>
                         <h2 class="sub-main-title mb-lg-4">
                             Tariq Khalil
                         </h2>
@@ -393,26 +393,26 @@ $getBooks = getBooks()['books'];
                     </h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12">
-                        <div class="my-slider">
-                            <?php 
-                            foreach ($getBooks as $value) {
-                                echo '<div>
-                                        <div class="card border-0 overflow-hidden bg-transparent">
-                                                            <img src="'.get_the_post_thumbnail_url($value->ID).'"
-                                            alt="brandon" class="img-fluid w-100 rounded-bottom" />
-                                            <div class="mt-2">
-                                                <h5 class="fw-semibold mb-0">'.$value->post_title.'</h5>
-                                                <h6 class="text-black-50 fw-medium">'.$value->post_content.'</h>
-                                            </div>
+                <div class="col-lg-12">
+                    <div class="my-slider">
+                        <?php 
+                        foreach ($getBooks as $value) {
+                            echo '<div>
+                                    <div class="card border-0 overflow-hidden bg-transparent">
+                                                        <img src="'.get_the_post_thumbnail_url($value->ID).'"
+                                        alt="brandon" class="img-fluid w-100 rounded-bottom" />
+                                        <div class="mt-2">
+                                            <h5 class="second-title fw-semibold mb-0">'.$value->post_title.'</h5>
+                                            <h6 class="text-black-50 fw-medium">'.$value->post_content.'</h>
                                         </div>
-                                    </div>';
-                            }
-                            ?>
-                        </div>
+                                    </div>
+                                </div>';
+                        }
+                        ?>
                     </div>
-
                 </div>
+
+            </div>
             </div>
         </section>
 

@@ -58,10 +58,9 @@ if (isset($post_data)) {
 
 
 <section id="about" class="about position-relative">
-    <div class="home-hero-image position-relative vh-100 w-100 bg-info overflow-hidden">
-        <img src="https://temp-books.kabarmedia.com/wp-content/uploads/2024/03/background-about.png"
-            alt="hero-background" class="w-100 h-100 object-fit-cover" />
-    </div>
+    <div class="home-hero-image position-relative vh-100 w-100 bg-info overflow-hidden d-flex align-items-center justify-content-center" style="background-image: url('https://temp-books.kabarmedia.com/wp-content/uploads/2024/03/background-about.png'); background-size: cover; background-position: center;">
+        </div>
+
     <div class="position-absolute top-0 h-100 w-100 ">
         <div class="container mx-auto position-relative top-0 h-100 d-flex flex-column justify-content-center">
            <div class="row align-items-center">

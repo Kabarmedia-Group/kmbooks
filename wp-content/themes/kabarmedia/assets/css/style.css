@@ -112,7 +112,7 @@ a:hover {
   background-color: var(--verdigris);
   color: var(--cultured);
   /* font-weight: 600; */
-  padding: 12px 28px;
+  padding: 12px 50px;
   border-radius: 0;
 }
 
@@ -163,7 +163,7 @@ a:hover {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 30px 0 0 30px;
+       margin: 30px 0 0 30px;
 }
 
 .btn.second-button-order:hover {
@@ -588,6 +588,11 @@ a:hover {
   .hero-caption{
     font-size: 29px;
   }
+
+  .btn.main-button {
+    padding: 10px 0; 
+    width: 100%; 
+}
 }
 
 

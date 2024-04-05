@@ -194,7 +194,7 @@ $getBooks = getBooks()['books'];
                 </p>
             </div>
             <div class="col-lg-5 pt-6">
-                <div class="d-md-flex gap-md-4 mt-4 justify-content-md-center"> <!-- Menambahkan kelas justify-content-end untuk tombol -->
+                <div class="d-md-flex gap-md-4 mt-4 justify-content-md-center"> <!-- Menambahkan kelas justify-content-md-center untuk tombol -->
                     <a href="https://www.tokopedia.com/kabarmedia/mountains-more-ancient-by-isna-marifa?extParam=whid%3D2720499" target="_blank" class="btn second-button-order mt-auto preorder-button">Order Now</a>
                 </div>
             </div>
@@ -349,26 +349,26 @@ $getBooks = getBooks()['books'];
                     </h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12">
-                        <div class="my-slider">
-                            <?php 
-                            foreach ($getBooks as $value) {
-                                echo '<div>
-                                        <div class="card border-0 overflow-hidden bg-transparent">
-                                                            <img src="'.get_the_post_thumbnail_url($value->ID).'"
-                                            alt="brandon" class="img-fluid w-100 rounded-bottom" />
-                                            <div class="mt-2">
-                                                <h5 class="fw-semibold mb-0">'.$value->post_title.'</h5>
-                                                <h6 class="text-black-50 fw-medium">'.$value->post_content.'</h>
-                                            </div>
+                <div class="col-lg-12">
+                    <div class="my-slider">
+                        <?php 
+                        foreach ($getBooks as $value) {
+                            echo '<div>
+                                    <div class="card border-0 overflow-hidden bg-transparent">
+                                                        <img src="'.get_the_post_thumbnail_url($value->ID).'"
+                                        alt="brandon" class="img-fluid w-100 rounded-bottom" />
+                                        <div class="mt-2">
+                                            <h5 class="second-title fw-semibold mb-0">'.$value->post_title.'</h5>
+                                            <h6 class="text-black-50 fw-medium">'.$value->post_content.'</h>
                                         </div>
-                                    </div>';
-                            }
-                            ?>
-                        </div>
+                                    </div>
+                                </div>';
+                        }
+                        ?>
                     </div>
-
                 </div>
+
+            </div>
             </div>
         </section>
 

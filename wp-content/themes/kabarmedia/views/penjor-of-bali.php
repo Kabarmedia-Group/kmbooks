@@ -131,26 +131,26 @@ $getBooks = getBooks()['books'];
             </h2>
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <div class="my-slider">
-                    <?php 
+                <div class="col-lg-12">
+                    <div class="my-slider">
+                        <?php 
                         foreach ($getBooks as $value) {
                             echo '<div>
                                     <div class="card border-0 overflow-hidden bg-transparent">
-                                        <img src="'.get_the_post_thumbnail_url($value->ID).'"
+                                                        <img src="'.get_the_post_thumbnail_url($value->ID).'"
                                         alt="brandon" class="img-fluid w-100 rounded-bottom" />
                                         <div class="mt-2">
-                                            <h5 class="fw-semibold mb-0">'.$value->post_title.'</h5>
+                                            <h5 class="second-title fw-semibold mb-0">'.$value->post_title.'</h5>
                                             <h6 class="text-black-50 fw-medium">'.$value->post_content.'</h>
                                         </div>
                                     </div>
                                 </div>';
-                            }
-                    ?>
+                        }
+                        ?>
+                    </div>
                 </div>
-            </div>
 
-        </div>
+            </div>
     </div>
 </section>
 

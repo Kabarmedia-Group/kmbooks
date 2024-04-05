@@ -45,6 +45,13 @@ $getBooks = getBooks()['books'];
 		.buku-retro{
 			padding-top: 27%;
 		}
+}
+
+    @media (max-width: 576px) { 
+        .btn.main-button {
+            padding: 10px 0; 
+            width: 100%; 
+        }
     }
 
     @media (min-width: 1024px) and (max-width: 1199px){

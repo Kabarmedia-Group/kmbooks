@@ -115,7 +115,7 @@ if (isset($post_data)) {
                 <div class="card-books">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/work/the-litle-star-cover.png" class="card-img-top" alt="retronesia">
                     <div class="card-body p-2">
-                        <h5 class="card-title fw-bold">The Little Star</h5>
+                        <h5 class="card-title-book fw-bold">The Little Star</h5>
                         <p class="author">by Ronald Stones </p>
                         <p class="card-text">Illustrated children’s book about a little star who struggles to find his purpose in life until he realises that the ‘why’ is more important than the ‘how’.</p>
                     </div>
@@ -220,7 +220,7 @@ if (isset($post_data)) {
             <h3 class="second-title">Share Your Stories Through Videos, Explainers, and Branded Films</h3>
             <div id="video-gallery" class="video-gallery pb-3 p-5">
             <!-- Container untuk menampilkan video -->
-            </div>
+            </div><br>
             <button id="load-more-btn" class="btn main-button text-center">See more</button>
         </div>    
     </div>

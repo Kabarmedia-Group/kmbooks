@@ -78,6 +78,7 @@ background-color: #e4d0c0;
   font-weight: 800;
   line-height: 42px;
   color: #8B292C;
+  white-space: nowrap;
 }
 
 .second-title {
@@ -102,7 +103,7 @@ background-color: #e4d0c0;
 }
 
 .btn.main-button {
-  background-color: var(--verdigris);
+  background-color: var(--cinnabar);
   color: var(--cultured);
   font-weight: 600;
   padding: 12px 24px;
@@ -111,7 +112,7 @@ background-color: #e4d0c0;
 }
 
 .btn.main-button:hover {
-  background-color: #537b7d;
+  background-color: #d96057;
   color: var(--cultured);
 }
 
@@ -125,8 +126,10 @@ background-color: #e4d0c0;
 }
 
 .btn.second-button:hover {
-  border: 1px solid var(--verdigris);
-  color: var(--opal);
+  border: 1px solid;
+  border-color: #9295A4;
+  background-color: #9295A4;
+  color: var(--cultured);
 }
 .btn.second-button-shop {
   background-color: var(--cinnabar);
@@ -172,7 +175,7 @@ background-color: #e4d0c0;
 }
 
 .btn.third-button:hover {
-  background-color: #537b7d;
+  background-color: #d96057;
   color: var(--cultured);
 }
 
@@ -418,11 +421,23 @@ background-color: #fff;
   }
   
 }
+
+@media (max-width: 576px) { 
+  .main-title {
+      line-height: 1.2; 
+  }
+  .sub-main-title {
+    white-space: normal; 
+}
+}
+
+
 @media (min-width: 102px) and (max-width: 767px){
 
   .author,
   .quotes,
   .other-books,
+  .btn.second-button-order,
   .events {
     scroll-margin-top: 2.5rem;
   }
@@ -433,7 +448,7 @@ background-color: #fff;
     display: none;
   }
   
-  .btn.second-button-order
+  
 }
 
 
