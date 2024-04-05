@@ -121,7 +121,7 @@ if (isset($post_data)) {
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+          <!--  <div class="col-md-3">
                 <div class="card-books">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/work/asian-anto-cover.png" class="card-img-top" alt="retronesia">
                     <div class="card-body p-2">
@@ -130,7 +130,7 @@ if (isset($post_data)) {
                         <p class="card-text">Unheard voices and evocative tales from a vast and fascinating continent: each anthology is a journey of discovery in the company of master storytellers.</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

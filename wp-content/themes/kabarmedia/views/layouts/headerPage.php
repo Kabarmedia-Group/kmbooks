@@ -29,9 +29,9 @@
                     </a>
                 </div>
                 <div class="navlink d-none d-lg-flex gap-4">
-                    <a href="our-titles" class="text-davys fs-6 small-caps">Home</a>
-					<a href="about" class="text-davys fs-6 small-caps">About</a>
-                    <a href="works" class="text-davys fs-6 small-caps">Work</a>
+                    <a href="<?= get_site_url(); ?>/our-titles" class="text-davys fs-6 small-caps">Home</a>
+					<a href="<?= get_site_url(); ?>/about" class="text-davys fs-6 small-caps">About</a>
+                    <a href="<?= get_site_url(); ?>/works" class="text-davys fs-6 small-caps">Work</a>
                     <!-- <a href="/work/Backup-26022024/press-room" class="text-davys fs-6 small-caps">Press Room</a> -->
                     <!-- <a href="#events" class="text-davys fs-6 fw-semibold">Events</a>
                     <a href="#quotes" class="text-davys fs-6 fw-semibold">Reviews</a> -->
@@ -57,9 +57,9 @@
                         <hr>
                     </div>
                     <div class="px-4 d-flex flex-column pt-3">
-                        <a onclick="myFunction(this)" href="our-titles" class="mb-3 text-davys fs-3 fw-bold">Home</a>
-                        <a onclick="myFunction(this)" href="about" class="mb-3 text-davys fs-3 fw-bold">About</a>
-                        <a onclick="myFunction(this)" href="works" class="mb-3 text-davys fs-3 fw-bold">Work</a>
+                        <a onclick="myFunction(this)" href="<?= get_site_url(); ?>/our-titles" class="mb-3 text-davys fs-3 fw-bold">Home</a>
+                        <a onclick="myFunction(this)" href="<?= get_site_url(); ?>/about" text-davys fs-3 fw-bold">About</a>
+                        <a onclick="myFunction(this)" href="<?= get_site_url(); ?>/works" class="mb-3 text-davys fs-3 fw-bold">Work</a>
                         <a onclick="myFunction(this)" href="#contact" class="mb-3 text-davys fs-3 fw-bold">Contact</a>
                         <a href="https://www.tokopedia.com/kabarmedia" target="_blank"
                             class="btn main-button mt-auto">Shop
